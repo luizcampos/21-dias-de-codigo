@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+    background-color: rgb(19, 19, 19);
+}
+
+h1{
+    color:steelblue;
+    font-size: 10rem;
+    font-weight: 2px;
+    letter-spacing: 10px;
+    text-decoration: underline dotted #fff;
+
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise); /* deixa o back degradê */
+    background-clip: text; /* o fundo fica com o formato do texto que tiver à frente */
+    -webkit-background-clip: text; /*alguns navegadores pedem o prefixo*/
+    -webkit-text-fill-color: transparent; /* esconde o texto */
+}
+
+h1:hover{
+    background-image: linear-gradient(to bottom, turquoise, steelblue, rebeccapurple); 
+}
