@@ -1,0 +1,36 @@
+*{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 4rem;
+    text-align: center;
+  }
+
+a {
+    border:1px solid #1C1C1C;
+    padding: 0.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.1s;
+}
+
+#btnConfirmar{
+    color: white;
+    background-color: #000;
+}
+  
+#btnConfirmar:hover{
+    background-color: #3CB371;
+    border-color: #3CB371;
+}
+  
+#btnEntrar{
+    color: black;
+}
+  
+#btnEntrar:hover{
+    background-color: #00CED1;
+    border-color: #00CED1;
+    color: white;
+}
