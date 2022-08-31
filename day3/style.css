@@ -6,31 +6,88 @@
     text-align: center;
   }
 
-a {
-    border:1px solid #1C1C1C;
-    padding: 0.8rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.1s;
+button {
+    width: 14rem;
+    height: 6rem;
+    background-color: 00CED1;
+    cursor: pointer;
+    border: none;
+    padding:5rem 2rem;
+    font-weight: bolder;
+
+    animation-name: run-shake;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
 }
 
-#btnConfirmar{
-    color: white;
-    background-color: #000;
-}
-  
-#btnConfirmar:hover{
-    background-color: #3CB371;
-    border-color: #3CB371;
-}
-  
-#btnEntrar{
-    color: black;
-}
-  
-#btnEntrar:hover{
+button:hover{
+    width: 14rem;
+    height: 14rem;
     background-color: #00CED1;
-    border-color: #00CED1;
     color: white;
+
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+  
+@keyframes run-shake {
+    0% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    25% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px);
+}
+    50% {
+        transform: translateX(-10px);
+        -webkit-transform: translateX(-10px);
+        -moz-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        -o-transform: translateX(-10px);
+}
+    75% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px);
+}
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
 }
