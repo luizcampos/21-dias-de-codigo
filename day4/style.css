@@ -30,4 +30,12 @@ body{
     font-size: 25px;
     background-color: rgb(238, 238, 238);
     margin-top: 20px;    
+    align-items: center;;
+}
+
+.previous{
+    color: #777;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
 }
