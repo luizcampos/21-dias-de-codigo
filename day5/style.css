@@ -2,9 +2,23 @@ body{
     text-align: center;
     padding: 0;
     margin: 0;
+    background-color: rgb(12, 12, 12);
 }
 
 h1{
     font-size: 15rem;
     margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+p{
+    font-family: 'Roboto', serif;
+    color: rgb(204, 204, 204);
+}
+
+img{
+    width: 25rem;
+    height: 25rem;
 }
